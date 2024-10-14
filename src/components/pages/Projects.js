@@ -1,5 +1,12 @@
+import Message from "../layout/Message"
+
 const Projects = () => {
-    return <h1>Project</h1>
+    return (
+        <div>
+            <h1>Meus projetos</h1>
+            <Message msg="Alguma mensagem" type="error"/>
+        </div>
+    )
 }
 
 export default Projects
